@@ -1,0 +1,51 @@
+html {
+    background: black;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: grey;
+    margin: 50px;
+    color: #ffffff;
+    padding: 50px;
+    border-top: 10px solid red;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: yellow
+}
+
+p {
+    line-height: 1.4em;
+    margin: 20px;
+    width: 800px;
+}
+
+.section-heading {
+    border-top: 2px dotted white;
+    padding: 20px;
+}
+
+#regist{
+    padding: 20px;
+    border-top: 2px solid red;
+}
+
+form {
+    line-height: 2em;
+}
+
+table {
+    
+    border: 1px solid red;
+    text-align: center;
+    
+}
+
+#table-tittle{
+    color: greenyellow;
+    font-size: 1.2em;
+}
