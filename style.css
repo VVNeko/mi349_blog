@@ -27,6 +27,8 @@ p {
 .section-heading {
     border-top: 2px dotted white;
     padding: 20px;
+    background: black;
+    
 }
 
 #regist{
@@ -48,4 +50,37 @@ table {
 #table-tittle{
     color: greenyellow;
     font-size: 1.2em;
+}
+
+
+#table {
+    background:yellow ;
+    float: right;
+    position: sticky;
+    width: 120px;
+    top: 0;
+    margin-right: 10px;
+}
+
+article {
+    background: #A9A9A9 ;
+    padding: 20px;
+    margin: 20px;
+}
+
+tr {
+    display:flex    
+    padding: 40px;
+    margin: 40px;
+}
+
+#navier {
+    float: left;
+    width: 30px;
+    height:30px;
+    top:0;
+}
+
+div {
+    display: flex;
 }
