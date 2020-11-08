@@ -62,7 +62,11 @@ table {
     margin-right: 10px;
 }
 
-article {
+#blog article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     background: #A9A9A9 ;
     padding: 20px;
     margin: 20px;
@@ -83,4 +87,18 @@ tr {
 
 div {
     display: flex;
+    padding: 40px;
+    background: #222222;
+
+}
+
+img {
+    width: 600px;
+}
+
+@media (max-width: 400px) {
+    body{
+        background:red;
+    }
+    
 }
